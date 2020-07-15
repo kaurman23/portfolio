@@ -1,15 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 
 body {
   background-color: #1a202c;
   font-family: 'Roboto', sans-serif;
   color: #edf0f4;
+  position: relative;
 }
 
-.navbar-brand 
-{
-  width: 30%;
+.about {
+ margin-right:5%;
+ margin-left:5%;
+ letter-spacing: .4rem
 }
 
+.about-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.about-content h1{
+  font-size:4rem;
+}
+
+.about-content p {
+  width:70%;
+  font-size: 1rem;
+  background-color: #e93578 ;
+  margin-left: 1px;
+
+}
+.about-content span {
+  color: #e93578;
+}
+
+.about-img {
+  height: 500px;
+  width:500px;
+}
+
+.about .btn {
+  align-self: flex-start;
+  letter-spacing: .1rem;
+  font-family: 'Roboto', sans-serif;
+  background-color: #e4e3e3;
+}
+
+
+
+.triangle{
+  position: absolute;
+  right: 0;
+  z-index: -1;
+  height: 400px
+}
+.navbar{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.nav-link {
+  margin: auto 30px;
+
+}
 .nav-item > a:hover {
   background-color: white;
   color:black !important;
@@ -20,6 +74,25 @@ body {
       margin-left : 1.5em;
       margin-right : 1.5em;
   }
+  
+}
+
+@media (max-width: 720px)
+{
+  .triangle{
+    display:none
+  }
+  .about-content{
+    text-align: center;
+  }
+  .about-content p {
+    width:100%; 
+  }
+  .about .btn{
+    align-self: center;
+  }
+
+
 }
 
 @media (min-width: 1200px) {
