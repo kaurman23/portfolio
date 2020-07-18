@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
-
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
 body {
   background-color: #1a202c;
   font-family: 'Roboto', sans-serif;
@@ -45,7 +52,7 @@ body {
   align-self: flex-start;
   letter-spacing: .1rem;
   font-family: 'Roboto', sans-serif;
-  background-color: e4e3e3#;
+  background-color: #e4e3e3;
 }
 
 /* ***********************************MAIN HEAD******************************************************** */
@@ -128,25 +135,24 @@ body {
   margin-top: 5%;
   background-color: #e4e3e3 ;
   color: #1a202c;
+  padding-bottom: 10%;
 }
 
 .project-item {
   font-family: Open Sans,sans-serif;
   padding-top:2%;
   padding-bottom:2%;
-  padding-left:3%;
-  padding-right:3%;
+  padding-left:10%;
+  padding-right:10%;
+  display:flex;
+    align-items: center;
 }
 
 
 .project-item img {
-  height: 300x;
-    width: 600px;
     margin: auto;
     box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
-    margin-bottom: 5%;
-    display:flex;
-    align-items: center;
+    
     
 
 }
@@ -186,12 +192,47 @@ body {
   background-color:  #667eea
 }
 
+.find-more button{
+  background-color: #667eea;
+  color: white;
+  box-shadow: 5px 5px 1px 1px rgba(0, 0, 255, .2);
+}
 
 
 
 
 
 /* ***********************************PROJECTS******************************************************** */
+
+
+
+
+/* ***********************************SKILLS******************************************************** */
+
+.skills 
+{
+  padding: 5%;
+}
+.skills.about-me-title{
+  font-size: 2rem;
+
+}
+
+.skill-icon {
+  background-color:  #667eea;
+  border-radius: 50%;
+  height: 6rem;
+  width: 6rem;
+}
+
+
+
+
+
+
+/* ***********************************SKILLS******************************************************** */
+
+
 
 
 
