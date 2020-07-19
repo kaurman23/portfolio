@@ -103,7 +103,23 @@ body {
 .about-me img {
   height: 400px;
   margin-left:7%;
+}
 
+.icons-layout-about-me {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.icons-about-me {
+  padding: .2rem 1rem;
+  background-color: #e4e3e3;
+  margin-right: 5px;
+  border-radius: 10px;
+  color: #1a202c;
+  font-weight: 100;
+  margin-bottom: 0.5rem ;
+  
 }
 
 
@@ -135,7 +151,7 @@ body {
   margin-top: 5%;
   background-color: #e4e3e3 ;
   color: #1a202c;
-  padding-bottom: 10%;
+  padding-bottom: 3%;
 }
 
 .project-item {
@@ -152,7 +168,6 @@ body {
 .project-item img {
     margin: auto;
     box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
-    
     
 
 }
@@ -196,6 +211,16 @@ body {
   background-color: #667eea;
   color: white;
   box-shadow: 5px 5px 1px 1px rgba(0, 0, 255, .2);
+  margin: 2% auto;
+  font-size: 2rem;
+  font-family: monospace;
+}
+
+.find-more button:hover {
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.1);
+  box-shadow: 5px 5px 1px 1px rgba(0, 0, 255, .2);
+  color: white
 }
 
 

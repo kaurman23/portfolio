@@ -76,7 +76,7 @@ export const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div className="project-item row">
+                <div className="project-item row last">
                     <div className="col-12 col-lg-5 project-item-img">
                         <img className="shadow img-fluid" src="/assets/images/drum.png" ></img>
                     </div>
