@@ -1,9 +1,20 @@
 import React from 'react';
-import {ProjectItem} from './ProjectItem';
+import { IconContext } from "react-icons";
+import { AiFillHtml5 } from "react-icons/ai";
+import { FaCss3Alt } from "react-icons/fa";
+import { FaJs} from "react-icons/fa";
+import { FaReact } from "react-icons/fa";
+import { FaNode} from "react-icons/fa";
+import { DiMongodb } from "react-icons/di";
+import { FaBootstrap } from "react-icons/fa";
+import { FaLink } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
 export const Projects = () => {
     return (
         <>
+        <IconContext.Provider value={ {size: '20px'}}>
+
             <div className="project-svj">
                 <img src="/assets/images/design2.svg" className="upper-svj" ></img>
             </div>
@@ -19,11 +30,11 @@ export const Projects = () => {
                         <div>
                             <h4 className="project-item-title">Expense Tracker</h4>
                             <p>A web application which lets you keep a track of your daily expenses incurred. Insert and Delete expenses easily.</p>
-                            <p><span className="icons"><i className="fab fa-react"></i> React</span>
-                            <span className="icons"><i className="fab fa-node"></i> NodeJs/Express</span>
-                            <span className="icons"><i className="fas fa-database"></i> MongoDB</span></p>
-                                <button type="button" className="btn  btn-primary"><i className="fas fa-link"></i> Live</button>
-                                <button type="button" className="btn  btn-primary"><i className="fab fa-github"></i> Source Code</button>
+                            <p><span className="icons"> <FaReact /> React</span>
+                            <span className="icons"><FaNode /> NodeJs/Express</span>
+                            <span className="icons"><DiMongodb /> MongoDB</span></p>
+                                <button type="button" className="btn  btn-primary"><FaLink /> Live Demo</button>
+                                <button type="button" className="btn  btn-primary"><FaGithub /> Source Code</button>
                         </div>
                     </div>
                 </div>
@@ -35,10 +46,10 @@ export const Projects = () => {
                         <div>
                             <h4 className="project-item-title">To Do List</h4>
                             <p>A web application where one can keep a track of their pending tasks. Write down the task and mark it done when completed.</p>
-                            <p><span className="icons"><i className="fab fa-react"></i> React</span>
-                            <span className="icons"><i className="fab fa-bootstrap"></i> Bootstrap4</span></p>
-                                <button type="button" className="btn  btn-primary"><i className="fas fa-link"></i> Live</button>
-                                <button type="button" className="btn  btn-primary"><i className="fab fa-github"></i> Source Code</button>
+                            <p><span className="icons"><FaReact /> React</span>
+                            <span className="icons"><FaBootstrap /> Bootstrap4</span></p>
+                            <button type="button" className="btn  btn-primary"><FaLink /> Live Demo</button>
+                                <button type="button" className="btn  btn-primary"><FaGithub /> Source Code</button>
                         </div>
                     </div>
                 </div>
@@ -50,12 +61,12 @@ export const Projects = () => {
                         <div>
                             <h4 className="project-item-title">Tin Dog</h4>
                             <p>A responsive, single page website for a fictional application called TinDog which is a dating application for Dogs.</p>
-                            <p> <span className="icons"><i className="fab fa-bootstrap"></i> Bootstrap4</span>
-                                <span className="icons"><i className="far fa-file-code"></i> HTML </span>
-                                <span className="icons"><i className="fab fa-css3-alt"></i> CSS </span>
+                            <p> <span className="icons"><FaBootstrap />  Bootstrap4</span>
+                                <span className="icons"><AiFillHtml5 /> HTML </span>
+                                <span className="icons"><FaCss3Alt /> CSS </span>
                                 </p>
-                                <button type="button" className="btn  btn-primary"><i className="fas fa-link"></i> Live</button>
-                                <button type="button" className="btn  btn-primary"><i className="fab fa-github"></i> Source Code</button>
+                                <button type="button" className="btn  btn-primary"><FaLink /> Live Demo</button>
+                                <button type="button" className="btn  btn-primary"><FaGithub /> Source Code</button>
                         </div>
                     </div>
                 </div>
@@ -67,12 +78,12 @@ export const Projects = () => {
                         <div>
                             <h4 className="project-item-title">Can you remember it?</h4>
                             <p>A memory game where you have to rememeber the pattern in which tiles were clicked. At each level the patterns become more complicated. </p>
-                            <p> <span className="icons"><i className="fab fa-js-square"></i> JavaScript</span>
-                                <span className="icons"><i className="far fa-file-code"></i> HTML </span>
-                                <span className="icons"><i className="fab fa-css3-alt"></i> CSS </span>
+                            <p> <span className="icons"><FaJs /> JavaScript</span>
+                                <span className="icons"><AiFillHtml5 /> HTML </span>
+                                <span className="icons"><FaCss3Alt /> CSS </span>
                                 </p>
-                                <button type="button" className="btn  btn-primary"><i className="fas fa-link"></i> Live</button>
-                                <button type="button" className="btn  btn-primary"><i className="fab fa-github"></i> Source Code</button>
+                                <button type="button" className="btn  btn-primary"><FaLink /> Live Demo</button>
+                                <button type="button" className="btn  btn-primary"><FaGithub /> Source Code</button>
                         </div>
                     </div>
                 </div>
@@ -84,12 +95,12 @@ export const Projects = () => {
                         <div>
                             <h4 className="project-item-title">Drum Kit</h4>
                             <p>Drum kit is basically an implementatin of advanced JavaScript and DOM manipulation. Learn to play drums on your computer! </p>
-                            <p> <span className="icons"><i className="fab fa-js-square"></i> JavaScript</span>
-                                <span className="icons"><i className="far fa-file-code"></i> HTML </span>
-                                <span className="icons"><i className="fab fa-css3-alt"></i> CSS </span>
+                            <p> <span className="icons"><FaJs /> JavaScript</span>
+                                <span className="icons"><AiFillHtml5 /> HTML </span>
+                                <span className="icons"><FaCss3Alt /> CSS </span>
                                 </p>
-                                <button type="button" className="btn  btn-primary"><i className="fas fa-link"></i> Live</button>
-                                <button type="button" className="btn  btn-primary"><i className="fab fa-github"></i> Source Code</button>
+                                <button type="button" className="btn  btn-primary"><FaLink /> Live Demo</button>
+                                <button type="button" className="btn  btn-primary"><FaGithub /> Source Code</button>
                         </div>
                     </div>
                 </div>
@@ -97,7 +108,8 @@ export const Projects = () => {
                 </div>
             </div>
             
-
+            
+            </IconContext.Provider>
 
                 
         </>
