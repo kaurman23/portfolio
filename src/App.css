@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
 
 html,body
 {
@@ -237,19 +239,50 @@ body {
 
 .contact
 {
-  padding: 5%;
-  height: 22rem;
-    letter-spacing: 2px;
+  background-color: #1a202c;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23d8345f' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23ccafaf' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23c54e71' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23d1a8a8' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23b06281' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23d6a1a1' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%2399728f' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23db9a9a' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%237d809c' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23e09292' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23588da8' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23e58a8a' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+  height: 31rem;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 14%;
+  padding-right: 14%;
+
+  font-family: 'Sacramento', cursive;
+ 
+
     
 }
 
-.contact-icons > img {
-  height: 6rem;
+.contact-content {
+  
+  background-color:rgb(255,255, 255, 0.2);
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 1%;
+  
+  
+}
+.contact-content > h1 {
+  text-align: justify;
+ font-size: 3rem;
 }
 
+.contact-icons {
+  color: #e4e3e3;
+  margin-right: 1rem;
+  
+}
 
+.contact-icons:hover {
+ background-color:
+transparent;
+fill:#ccafaf;
 
-
+}
 
 
 
@@ -278,7 +311,7 @@ body {
 
 .nav-link {
   margin: auto 30px;
-
+  border: '1px white solid'
 }
 .nav-item > a:hover {
   background-color: white;
@@ -298,7 +331,7 @@ body {
 
 @media (max-width: 720px)
 {
-  .triangle{
+  .triangle, .triangle2{
     display:none
   }
   .about-content{
@@ -311,6 +344,9 @@ body {
     align-self: center;
   }
 
+  .contact {
+    padding-top: 10%;
+  }
 
 }
 

@@ -18,7 +18,7 @@ export const Projects = () => {
             <div className="project-svj">
                 <img src="/assets/images/design2.svg" className="upper-svj" ></img>
             </div>
-            <div className="text-center project">
+            <div id="projects"  className="text-center project">
                 <h1 className="project-title"><span>P</span>rojects</h1>
             </div>
             <div className="project-content">

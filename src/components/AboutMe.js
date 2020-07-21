@@ -13,7 +13,7 @@ import { FaPython } from "react-icons/fa";
 
 export const AboutMe = () => {
     return (
-        <div className="container-fluid about-me">
+        <div id="aboutme" className="container-fluid about-me">
             <div className="row ">
                 
                 <div className="col-12 col-md-4 about-me-content">
@@ -24,9 +24,8 @@ export const AboutMe = () => {
                         GET TO KNOW ME!
                     </h1>
                     <p> I am a final year student pursuing Bachelor's of Technology in Computer 
-                    Science. I am a web development and data science enthusiast. Currently, I am focusing on
-                    improving my skills and become a better developer. I am a quick learner and always curious to learn about new technologies. I enjoy  the process of
-                    learning and creating.Whenever I am not coding, I like to spend my time reading. </p>
+                    Science. I am an avid learner and always curious to learn about new technologies. I enjoy  the process of
+                    learning and building stuff. Whenever I am not coding, I like to spend my time reading books. </p>
                     <IconContext.Provider value={ {size: '20px'}}>
                     <p className="icons-layout-about-me"> 
                         <span className="icons-about-me"><AiFillHtml5 /> HTML5 </span>
