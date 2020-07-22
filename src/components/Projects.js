@@ -35,7 +35,7 @@ export const Projects = () => {
                     <div className="col-12 col-lg-7 project-desc ">
                         <div>
                             <h4 className="project-item-title">Expense Tracker</h4>
-                            <p>A web application which lets you keep a track of your daily expenses incurred. Insert and Delete expenses easily.</p>
+                            <p  className="project-desc-para">A web application which lets you keep a track of your daily expenses incurred. Insert and Delete expenses easily.</p>
                             <p className="icon-parent"><span className="icons"> <FaReact /> React</span>
                             <span className="icons"><FaNode /> NodeJs/Express</span>
                             <span className="icons"><DiMongodb /> MongoDB</span></p>
@@ -53,7 +53,7 @@ export const Projects = () => {
                     <div className="col-12 col-lg-7 project-desc ">
                         <div>
                             <h4 className="project-item-title">To Do List</h4>
-                            <p>A web application where one can keep a track of their pending tasks. Write down the task and mark it done when completed.</p>
+                            <p  className="project-desc-para">A web application where one can keep a track of their pending tasks. Write down the task and mark it done when completed.</p>
                             <p className="icon-parent"><span className="icons"><FaReact /> React</span>
                             <span className="icons"><FaBootstrap /> Bootstrap4</span></p>
                             <div className="link-buttons">
@@ -71,7 +71,7 @@ export const Projects = () => {
                     <div className="col-12 col-lg-7 project-desc ">
                         <div>
                             <h4 className="project-item-title">Tin Dog</h4>
-                            <p>A responsive, single page website for a fictional application called TinDog which is a dating application for Dogs.</p>
+                            <p  className="project-desc-para">A responsive, single page website for a fictional application called TinDog which is a dating application for Dogs.</p>
                             <p className="icon-parent"> <span className="icons"><FaBootstrap />  Bootstrap4</span>
                                 <span className="icons"><AiFillHtml5 /> HTML </span>
                                 <span className="icons"><FaCss3Alt /> CSS </span>
@@ -90,7 +90,7 @@ export const Projects = () => {
                     <div className="col-12 col-lg-7 project-desc ">
                         <div>
                             <h4 className="project-item-title">Can you remember it?</h4>
-                            <p>A memory game where you have to rememeber the pattern in which tiles were clicked. At each level the patterns become more complicated. </p>
+                            <p  className="project-desc-para">A memory game where you have to rememeber the pattern in which tiles were clicked. At each level the patterns become more complicated. </p>
                             <p className="icon-parent"> <span className="icons"><FaJs /> JavaScript</span>
                                 <span className="icons"><AiFillHtml5 /> HTML </span>
                                 <span className="icons"><FaCss3Alt /> CSS </span>
@@ -109,7 +109,7 @@ export const Projects = () => {
                     <div className="col-12 col-lg-7 project-desc ">
                         <div>
                             <h4 className="project-item-title">Drum Kit</h4>
-                            <p >Drum kit is basically an implementatin of advanced JavaScript and DOM manipulation. Learn to play drums on your computer! </p>
+                            <p className="project-desc-para" >Drum kit is basically an implementatin of advanced JavaScript and DOM manipulation. Learn to play drums on your computer! </p>
                             <p className="icon-parent"> <span className="icons"><FaJs /> JavaScript</span>
                                 <span className="icons"><AiFillHtml5 /> HTML </span>
                                 <span className="icons"><FaCss3Alt /> CSS </span>

@@ -205,6 +205,10 @@ body {
 
 }
 
+.project-desc-para{
+  font-family: sans-serif;
+}
+
 .project-desc > div{
   background-color: white;
   border-right: 5px solid  #667eea;
@@ -382,6 +386,8 @@ fill:#ccafaf;
     justify-content: center;
     align-items: center;
   }
+
+  .project-title
 
   .icon-parent {
     display: flex;
