@@ -33,8 +33,8 @@ export const Projects = () => {
                             <p><span className="icons"> <FaReact /> React</span>
                             <span className="icons"><FaNode /> NodeJs/Express</span>
                             <span className="icons"><DiMongodb /> MongoDB</span></p>
-                                <button type="button" className="btn  btn-primary"><FaLink /> Live Demo</button>
-                                <button type="button" className="btn  btn-primary"><FaGithub /> Source Code</button>
+                                <a type="button" className="btn  btn-primary" href="https://expensetrackerreact.herokuapp.com/"><FaLink /> Live Demo</a>
+                                <a type="button" className="btn  btn-primary" href="https://github.com/kaurman23/react-expense-tracker"><FaGithub /> Source Code</a>
                         </div>
                     </div>
                 </div>
@@ -48,8 +48,8 @@ export const Projects = () => {
                             <p>A web application where one can keep a track of their pending tasks. Write down the task and mark it done when completed.</p>
                             <p><span className="icons"><FaReact /> React</span>
                             <span className="icons"><FaBootstrap /> Bootstrap4</span></p>
-                            <button type="button" className="btn  btn-primary"><FaLink /> Live Demo</button>
-                                <button type="button" className="btn  btn-primary"><FaGithub /> Source Code</button>
+                            <a type="button" className="btn  btn-primary" href="https://optimistic-saha-5865ba.netlify.app/"><FaLink /> Live Demo</a>
+                            <a type="button" className="btn  btn-primary" href="https://github.com/kaurman23/react-todo-list"><FaGithub /> Source Code</a>
                         </div>
                     </div>
                 </div>
@@ -65,8 +65,8 @@ export const Projects = () => {
                                 <span className="icons"><AiFillHtml5 /> HTML </span>
                                 <span className="icons"><FaCss3Alt /> CSS </span>
                                 </p>
-                                <button type="button" className="btn  btn-primary"><FaLink /> Live Demo</button>
-                                <button type="button" className="btn  btn-primary"><FaGithub /> Source Code</button>
+                                <a type="button" className="btn  btn-primary" href="https://kaurman23.github.io/tindog/"><FaLink /> Live Demo</a>
+                                <a type="button" className="btn  btn-primary" href="https://github.com/kaurman23/tindog"><FaGithub /> Source Code</a>
                         </div>
                     </div>
                 </div>
@@ -82,8 +82,8 @@ export const Projects = () => {
                                 <span className="icons"><AiFillHtml5 /> HTML </span>
                                 <span className="icons"><FaCss3Alt /> CSS </span>
                                 </p>
-                                <button type="button" className="btn  btn-primary"><FaLink /> Live Demo</button>
-                                <button type="button" className="btn  btn-primary"><FaGithub /> Source Code</button>
+                                <a type="button" className="btn  btn-primary" href="https://kaurman23.github.io/simon-game/"><FaLink /> Live Demo</a>
+                                <a type="button" className="btn  btn-primary" href="https://github.com/kaurman23/simon-game"><FaGithub /> Source Code</a>
                         </div>
                     </div>
                 </div>
@@ -99,12 +99,12 @@ export const Projects = () => {
                                 <span className="icons"><AiFillHtml5 /> HTML </span>
                                 <span className="icons"><FaCss3Alt /> CSS </span>
                                 </p>
-                                <button type="button" className="btn  btn-primary"><FaLink /> Live Demo</button>
-                                <button type="button" className="btn  btn-primary"><FaGithub /> Source Code</button>
+                                <a type="button" className="btn  btn-primary" href="https://kaurman23.github.io/drumkit/"><FaLink /> Live Demo</a>
+                                <a type="button" className="btn  btn-primary" href="https://github.com/kaurman23/drumkit"><FaGithub /> Source Code</a>
                         </div>
                     </div>
                 </div>
-                <div className="text-center find-more"><button className="btn">More Projects <i className="fab fa-github"></i> </button>
+                <div className="text-center find-more"><a className="btn" href="https://github.com/kaurman23">More Projects <i className="fab fa-github"></i> </a>
                 </div>
             </div>
             

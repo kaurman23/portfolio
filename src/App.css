@@ -204,13 +204,13 @@ body {
   padding: 2%;
 }
 
-.project-desc  button {
+.project-desc  a {
   margin-right: 10px;
   padding: .2rem .4rem;
   background-color:  #667eea
 }
 
-.find-more button{
+.find-more a{
   background-color: #667eea;
   color: white;
   box-shadow: 5px 5px 1px 1px rgba(0, 0, 255, .2);
