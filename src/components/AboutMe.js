@@ -18,7 +18,7 @@ export const AboutMe = () => {
             <div className="row ">
                 
                 <div className="col-12 col-md-4 about-me-content">
-                    <img src={me} />
+                    <img src={me} alt="display"/>
                     
                 </div>
                 <div className="col-12 col-md-6 about-me-content">

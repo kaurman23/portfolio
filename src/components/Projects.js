@@ -22,7 +22,7 @@ export const Projects = () => {
         <IconContext.Provider value={ {size: '20px'}}>
 
             <div className="project-svj">
-                <img src={uppersvg} className="upper-svj" ></img>
+                <img src={uppersvg} alt="project-background-svj" className="upper-svj" ></img>
             </div>
             <div id="projects"  className="text-center project">
                 <h1 className="project-title"><span>P</span>rojects</h1>
@@ -30,7 +30,7 @@ export const Projects = () => {
             <div className="project-content">
                 <div className="project-item row">
                     <div className="col-12 col-lg-5 project-item-img">
-                        <img className="shadow img-fluid" src={expenseImg} ></img>
+                        <img className="shadow img-fluid" alt="expenseTracker" src={expenseImg} ></img>
                     </div>
                     <div className="col-12 col-lg-7 project-desc ">
                         <div>
@@ -46,7 +46,7 @@ export const Projects = () => {
                 </div>
                 <div className="project-item row">
                     <div className="col-12 col-lg-5 project-item-img">
-                        <img className="shadow img-fluid" src={todoImg} ></img>
+                        <img className="shadow img-fluid" src={todoImg} alt="todolist" ></img>
                     </div>
                     <div className="col-12 col-lg-7 project-desc ">
                         <div>
@@ -61,7 +61,7 @@ export const Projects = () => {
                 </div>
                 <div className="project-item row">
                     <div className="col-12 col-lg-5 project-item-img">
-                        <img className="shadow img-fluid" src={tindogImg} ></img>
+                        <img className="shadow img-fluid" alt="tindog" src={tindogImg} ></img>
                     </div>
                     <div className="col-12 col-lg-7 project-desc ">
                         <div>
@@ -78,7 +78,7 @@ export const Projects = () => {
                 </div>
                 <div className="project-item row">
                     <div className="col-12 col-lg-5 project-item-img">
-                        <img className="shadow img-fluid" src={simonImg} ></img>
+                        <img className="shadow img-fluid" alt="simongame" src={simonImg} ></img>
                     </div>
                     <div className="col-12 col-lg-7 project-desc ">
                         <div>
@@ -95,7 +95,7 @@ export const Projects = () => {
                 </div>
                 <div className="project-item row last">
                     <div className="col-12 col-lg-5 project-item-img">
-                        <img className="shadow img-fluid" src={drumImg} ></img>
+                        <img className="shadow img-fluid" alt="drumkit" src={drumImg} ></img>
                     </div>
                     <div className="col-12 col-lg-7 project-desc ">
                         <div>

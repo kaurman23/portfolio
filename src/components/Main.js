@@ -12,7 +12,7 @@ export const Main = () => {
                 <a type="button"  className="btn btn-light" href="/assets/images/Manpreet_Ceev.pdf">Resume <i class="fas fa-arrow-right"></i></a>
                 </div>
                 <div className="about-content col-12 col-lg-6 ">
-                    <img className="about-img img-fluid" src={work} ></img>
+                    <img className="about-img img-fluid" alt="manUnderShade" src={work} ></img>
                 </div>
             </div>
             
