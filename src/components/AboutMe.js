@@ -9,6 +9,7 @@ import { DiMongodb } from "react-icons/di";
 import { FaBootstrap } from "react-icons/fa";
 import { FaCodeBranch} from "react-icons/fa";
 import { FaPython } from "react-icons/fa";
+import me from '../assets/images/dp.svg';
 
 
 export const AboutMe = () => {
@@ -17,7 +18,8 @@ export const AboutMe = () => {
             <div className="row ">
                 
                 <div className="col-12 col-md-4 about-me-content">
-                    <img src="/assets/images/dp.svg" />
+                    <img src={me} />
+                    
                 </div>
                 <div className="col-12 col-md-6 about-me-content">
                     <h1 className=" about-me-title">

@@ -9,6 +9,12 @@ import { DiMongodb } from "react-icons/di";
 import { FaBootstrap } from "react-icons/fa";
 import { FaLink } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import uppersvg from '../assets/images/design2.svg';
+import expenseImg from "../assets/images/Expense.png";
+import todoImg from "../assets/images/ToDoReact.png";
+import tindogImg from "../assets/images/tindog.png";
+import simonImg from "../assets/images/Simon.png";
+import drumImg from "../assets/images/drum.png";
 
 export const Projects = () => {
     return (
@@ -16,7 +22,7 @@ export const Projects = () => {
         <IconContext.Provider value={ {size: '20px'}}>
 
             <div className="project-svj">
-                <img src="/assets/images/design2.svg" className="upper-svj" ></img>
+                <img src={uppersvg} className="upper-svj" ></img>
             </div>
             <div id="projects"  className="text-center project">
                 <h1 className="project-title"><span>P</span>rojects</h1>
@@ -24,7 +30,7 @@ export const Projects = () => {
             <div className="project-content">
                 <div className="project-item row">
                     <div className="col-12 col-lg-5 project-item-img">
-                        <img className="shadow img-fluid" src="/assets/images/Expense.png" ></img>
+                        <img className="shadow img-fluid" src={expenseImg} ></img>
                     </div>
                     <div className="col-12 col-lg-7 project-desc ">
                         <div>
@@ -40,7 +46,7 @@ export const Projects = () => {
                 </div>
                 <div className="project-item row">
                     <div className="col-12 col-lg-5 project-item-img">
-                        <img className="shadow img-fluid" src="/assets/images/ToDoReact.png" ></img>
+                        <img className="shadow img-fluid" src={todoImg} ></img>
                     </div>
                     <div className="col-12 col-lg-7 project-desc ">
                         <div>
@@ -55,7 +61,7 @@ export const Projects = () => {
                 </div>
                 <div className="project-item row">
                     <div className="col-12 col-lg-5 project-item-img">
-                        <img className="shadow img-fluid" src="/assets/images/tindog.png" ></img>
+                        <img className="shadow img-fluid" src={tindogImg} ></img>
                     </div>
                     <div className="col-12 col-lg-7 project-desc ">
                         <div>
@@ -72,7 +78,7 @@ export const Projects = () => {
                 </div>
                 <div className="project-item row">
                     <div className="col-12 col-lg-5 project-item-img">
-                        <img className="shadow img-fluid" src="/assets/images/Simon.png" ></img>
+                        <img className="shadow img-fluid" src={simonImg} ></img>
                     </div>
                     <div className="col-12 col-lg-7 project-desc ">
                         <div>
@@ -89,7 +95,7 @@ export const Projects = () => {
                 </div>
                 <div className="project-item row last">
                     <div className="col-12 col-lg-5 project-item-img">
-                        <img className="shadow img-fluid" src="/assets/images/drum.png" ></img>
+                        <img className="shadow img-fluid" src={drumImg} ></img>
                     </div>
                     <div className="col-12 col-lg-7 project-desc ">
                         <div>

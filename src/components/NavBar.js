@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import triangle from "../assets/images/triangle.svg"
 
 export const NavBar = () => {
     return (
         <>
-        <img className="triangle" src="/assets/images/triangle.svg" />
+        <img className="triangle" src={triangle} />
 
         <div className="container-fluid " id="navbar home ">
             <nav className="navbar navbar-expand-lg navbar-dark">
