@@ -8,6 +8,8 @@
 - HTML4
 - CSS
 - Javascript
+- Boostrap4
+- react-icons
 
 ## :hatching_chick: Prerequisites
 * npm >= 6.14.4
