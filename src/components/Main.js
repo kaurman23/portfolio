@@ -1,6 +1,6 @@
 import React from 'react';
 import work from "../assets/images/work.svg"
-import cv from "../assets/images/Manpreet_Ceev.pdf"
+import cv from "../assets/images/Manpreet_Kaur.pdf"
 
 export const Main = () => {
     return (
